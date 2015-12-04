@@ -31,3 +31,7 @@ git clone https://github.com/wklken/k-vim.git
 cd k-vim/
 sh -x install.sh
 ```
+
+### mac 下安装 k-vim 系列插件
+
+一直没有找到好的方法
