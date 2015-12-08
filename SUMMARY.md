@@ -4,5 +4,5 @@
 * [vim](vim.md)
 * [nodejs](nodejs.md)
 * [tmux](tmux.md)
-* openvpn
+* [openvpn](openvpn.md)
 
