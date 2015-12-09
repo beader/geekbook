@@ -60,11 +60,9 @@ cd /etc/openvpn/easy-rsa
 #### 4. 网络配置
 
 
-
-字段说明
-
 参考:
 
+- [https://docs.ucloud.cn/software/vpn/OpenVPN4Ubuntu.html](OpenVPN for Ubuntu)
 - [CentOS 6.3下OpenVPN实现双IDC互联](http://wangzan18.blog.51cto.com/8021085/1678272)
 - [Linode VPS OpenVPN安装配置教程(基于Debian/Ubuntu)](http://www.vpser.net/build/linode-install-openvpn.html)
 - [OpenVPN异地机房互连以及负载均衡高可用解决方案
