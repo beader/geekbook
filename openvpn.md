@@ -52,12 +52,12 @@ cp /etc/openvpn/easy-rsa/keys/{server.crt,server.key,ca.crt} /etc/openvpn
 
 以下会产生名为client1的证书以及秘钥文件，用相同的方法为多个客户端产生不同的证书及秘钥
 
-#### 4. 网络配置
-
 ```zsh
 cd /etc/openvpn/easy-rsa
 ./build-key client1
 ```
+
+#### 4. 网络配置
 
 字段说明
 
