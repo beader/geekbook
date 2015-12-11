@@ -5,5 +5,5 @@
 * [nodejs](nodejs.md)
 * [tmux](tmux.md)
 * [openvpn](openvpn.md)
-* R
+* [R](r.md)
 
