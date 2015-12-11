@@ -1,7 +1,8 @@
 # R
 
-### openblas
+### build openblas
 
+### build R from source
 
 ```zsh
 sudo apt-get install gcc gfortran libreadline-dev
