@@ -6,4 +6,5 @@
 * [tmux](tmux.md)
 * [openvpn](openvpn.md)
 * [R](r.md)
+* blas and lapack
 
