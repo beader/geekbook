@@ -8,6 +8,6 @@
 * [R](r.md)
 * [blas and lapack](blas_and_lapack.md)
 * [python](python.md)
-   * pip
+   * [pip](pip.md)
    * unitest
 
