@@ -9,4 +9,5 @@
 * [blas and lapack](blas_and_lapack.md)
 * [python](python.md)
    * pip
+   * unitest
 
