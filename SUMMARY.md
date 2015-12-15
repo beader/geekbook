@@ -12,4 +12,5 @@
    * [unitest](unitest.md)
 * [Swiss Army Knife](swiss_army_knife.md)
 * [odbc](odbc.md)
+   * Connect Azure SQL Database From Ubuntu
 
