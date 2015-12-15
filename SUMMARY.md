@@ -10,5 +10,5 @@
 * [python](python.md)
    * [pip](pip.md)
    * [unitest](unitest.md)
-* Swiss Army Knife
+* [Swiss Army Knife](swiss_army_knife.md)
 
