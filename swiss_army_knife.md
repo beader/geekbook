@@ -26,3 +26,13 @@ URL='https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/' curl -s $U
 ```
 
 [Intro to xargs](https://www.youtube.com/watch?v=8kAB_VgokMY)
+
+### parallel
+
+GNU [parallel](https://www.gnu.org/software/parallel/) is a shell tool for executing jobs in parallel using one or more computers.
+
+### example - 获取台北RAW餐厅可预订时段信息
+
+```zsh
+PEOPLE=4; START_DATE='2015-12-24'; URL='https://api.eztable.com/v3/restaurants/2128/quotas?date=%s&people=%s&premium=true\n'; seq 0 10 | xargs -I {} date -d $START_DATE" {} days" +%Y-%m-%d | xargs -I {} printf $URL {} $PEOPLE | parallel "curl -s {} | jq '.premium_quotas[] | select(.availability==true) | {datetime: .datetime, purchase_link: .purchase_link}'"
+```
