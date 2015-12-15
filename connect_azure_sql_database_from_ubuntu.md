@@ -91,3 +91,4 @@ for row in cursor.execute(RANDOM_NUMBER_SQL):
 
 - [How To Connect Azure SQL Database From Ubuntu](https://bitbucket.org/janihur/devoops/wiki/How%20To%20Connect%20Azure%20SQL%20Database%20From%20Ubuntu)
 - [Connecting MS SQL using freetds and unixodbc: isql - no default driver specified](https://askubuntu.com/questions/167491/connecting-ms-sql-using-freetds-and-unixodbc-isql-no-default-driver-specified)
+- [pyodbc](https://mkleehammer.github.io/pyodbc/)
