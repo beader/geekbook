@@ -1,5 +1,9 @@
 # vim
 
+### vim tutorial
+
+[vim + tmux OMG!Code](https://www.youtube.com/watch?v=5r6yzFEXajQ)
+
 ### ubuntu 下安装k-vim的一些列插件
 
 先在vim当中运行`:version`
