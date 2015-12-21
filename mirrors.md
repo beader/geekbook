@@ -1,6 +1,6 @@
 # mirrors
 
-### ubuntu apt source-list
+### ubuntu - apt source-list
 
 ```zsh
 $ sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
@@ -20,3 +20,6 @@ deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted univers
 deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
 ```
+
+### nodejs
+
