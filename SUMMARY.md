@@ -13,5 +13,5 @@
 * [Swiss Army Knife](swiss_army_knife.md)
 * [odbc](odbc.md)
    * [Connect Azure SQL Database From Ubuntu](connect_azure_sql_database_from_ubuntu.md)
-* mirrors
+* [mirrors](mirrors.md)
 
