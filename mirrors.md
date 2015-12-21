@@ -21,7 +21,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted univer
 deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
 ```
 
-### nodejs
+### nodejs - npm
 
 modify `~/.npmrc`
 
@@ -29,3 +29,7 @@ modify `~/.npmrc`
 # ~/.npmrc
 registry = https://registry.npm.taobao.org
 ```
+
+### python - pip
+
+See [this](./pip.html)
