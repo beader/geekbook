@@ -7,7 +7,7 @@ $ sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
 $ sudo vi /etc/apt/sources.list
 ```
 
-```
+```zsh
 # /etc/apt/sources.list
 deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
@@ -23,3 +23,9 @@ deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted unive
 
 ### nodejs
 
+modify `~/.npmrc`
+
+```zsh
+# ~/.npmrc
+registry = https://registry.npm.taobao.org
+```
