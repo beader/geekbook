@@ -15,4 +15,5 @@
    * [Connect Azure SQL Database From Ubuntu](connect_azure_sql_database_from_ubuntu.md)
 * [mirrors](mirrors.md)
 * [scrapy](scrapy.md)
+* nginx
 
