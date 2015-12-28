@@ -10,11 +10,11 @@
 * [python](python.md)
    * [pip](pip.md)
    * [unitest](unitest.md)
+* [ssh](ssh.md)
 * [Linux Swiss Army Knife](linux_swiss_army_knife.md)
 * [odbc](odbc.md)
    * [Connect Azure SQL Database From Ubuntu](connect_azure_sql_database_from_ubuntu.md)
 * [mirrors](mirrors.md)
 * [scrapy](scrapy.md)
 * [nginx](nginx.md)
-* [ssh](ssh.md)
 
