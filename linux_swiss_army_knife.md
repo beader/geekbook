@@ -56,4 +56,4 @@ PEOPLE=4; START_DATE='2015-12-24'; URL='https://api.eztable.com/v3/restaurants/2
 
 ## References
 
-[Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.org/zh_CN/latest/base/index.html)
+- [Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.org/zh_CN/latest/base/index.html)
