@@ -2,18 +2,6 @@
 
 ## Tools
 
-### du
-
-du - estimate file space usage
-
-```zsh
-# estimate the total size of dir
-# -s, --summarize display only a total for each argument
-# -h, --human-readable print sizes in human readable format
-# -c, --total produce a grand total
-du -shc dir
-```
-
 ### pup
 
 [pup](https://github.com/EricChiang/pup) is a command line tool for processing HTML. It reads from stdin, prints to stdout, and allows the user to filter parts of the page using CSS selectors.
