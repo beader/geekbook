@@ -45,6 +45,9 @@ URL='https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/' curl -s $U
 
 GNU [parallel](https://www.gnu.org/software/parallel/) is a shell tool for executing jobs in parallel using one or more computers.
 
+
+## Cases
+
 ### example - 获取台北RAW餐厅可预订时段信息
 
 ```zsh
