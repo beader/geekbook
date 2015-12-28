@@ -53,3 +53,7 @@ GNU [parallel](https://www.gnu.org/software/parallel/) is a shell tool for execu
 ```zsh
 PEOPLE=4; START_DATE='2015-12-24'; URL='https://api.eztable.com/v3/restaurants/2128/quotas?date=%s&people=%s&premium=true\n'; seq 0 10 | xargs -I {} date -d $START_DATE" {} days" +%Y-%m-%d | xargs -I {} printf $URL {} $PEOPLE | parallel "curl -s {} | jq '.premium_quotas[] | select(.availability==true) | {datetime: .datetime, purchase_link: .purchase_link}'"
 ```
+
+## References
+
+[Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.org/zh_CN/latest/base/index.html)
