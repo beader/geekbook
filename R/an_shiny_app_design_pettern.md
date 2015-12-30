@@ -117,7 +117,7 @@ create_tab1_page <- function(session) {
   return(tab_page)
 }
 ```
-这里使用一个非常简单的`id_maker`函数来解决命名空间的问题，
+这里使用一个非常简单的`id_maker`函数来解决命名空间的问题，这样实际上是给不同页面的所有控件前面都加了一个不重复的前缀，这样一来`tab1_page.R`和`tab2_page.R`下的`id('text_output')`在观感上是相同的，但是实际的值是不同的。
 
 ```r
 # R/id_maker.R
