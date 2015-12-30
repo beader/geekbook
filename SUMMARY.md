@@ -12,7 +12,7 @@
    * [unitest](python/unitest.md)
    * [multithread](python/multithread.md)
 * [ssh](ssh.md)
-* [Linux Swiss Army Knife](linux_swiss_army_knife/linux_swiss_army_knife.md)
+* [Linux Swiss Army Knife](linux_swiss_army_knife/README.md)
    * [curl](linux_swiss_army_knife/curl.md)
    * [du](linux_swiss_army_knife/du.md)
 * [odbc](odbc.md)
