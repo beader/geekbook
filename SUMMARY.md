@@ -7,7 +7,7 @@
 * [openvpn](openvpn.md)
 * [R](r.md)
    * [An Shiny App Design Pettern](an_shiny_app_design_pettern.md)
-   * OpenCPU
+   * [OpenCPU](R/opencpu.md)
 * [blas and lapack](blas_and_lapack.md)
 * [python](python/README.md)
    * [pip](python/pip.md)
