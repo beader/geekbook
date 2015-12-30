@@ -1,7 +1,5 @@
 # R
 
-### build openblas
-
 ### build R from source
 
 ```zsh
