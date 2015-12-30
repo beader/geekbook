@@ -99,7 +99,7 @@ shinyServer(function(input, output, session) {
 每个tab page都是一个独立的文件，存放在`tabItems`目录下，以下以第一个tab为例:
 
 ```r
-# tab1_page.R
+# tabItems/tab1_page.R
 create_tab1_page <- function(session) {
   id <- id_maker()
   tab_page <- fluidPage(
