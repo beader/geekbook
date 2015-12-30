@@ -7,7 +7,7 @@
 * [openvpn](openvpn.md)
 * [R](r.md)
 * [blas and lapack](blas_and_lapack.md)
-* [python](python.md)
+* [python](python/README.md)
    * [pip](python/pip.md)
    * [unitest](python/unitest.md)
    * [multithread](python/multithread.md)
