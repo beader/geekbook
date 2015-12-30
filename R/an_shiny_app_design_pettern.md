@@ -117,6 +117,7 @@ create_tab1_page <- function(session) {
   return(tab_page)
 }
 ```
+这里使用一个非常简单的`id_maker`函数来解决命名空间的问题，
 
 ```r
 # R/id_maker.R
