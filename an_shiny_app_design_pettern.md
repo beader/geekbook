@@ -37,4 +37,5 @@ shinyServer(function(input, output) {
 })
 ```
 
-但随着页面，功能的增加，这两个页面就会越来越大，越来越不容易管理。
+但随着页面，功能的增加，这两个页面就会越来越大，越来越不容易管理。比如一个典型的[shinydashboard](https://rstudio.github.io/shinydashboard/)应用:
+![](dashboard.png)
