@@ -72,9 +72,7 @@ body <- dashboardBody(
   )
 )
 
-ui <- dashboardPage(header, sidebar, body)
-
-shinyUI(ui)
+shinyUI(dashboardPage(header, sidebar, body))
 ```
 
 ```r
@@ -105,8 +103,34 @@ shinyServer(function(input, output, session) {
 create_tab1_page <- function(session) {
   id <- id_maker()
   tab_page <- fluidPage(
-    "this is tab1 page"
+    "this is tab1 page",
+    selectInput(id('select_input'), "select a letter", choices = letters),
+    verbatimTextOutput(id('text_output'))
   )
+  on.exit({
+    input <- session$input
+    output <- session$output
+    output[[id('text_output')]] <- renderText({
+      input[[id('select_input')]]
+    })
+  })
   return(tab_page)
 }
+```
+
+```r
+# R/id_maker.R
+id_maker <- function(prefix = make_random_string()) {
+  function(id) {
+    paste(prefix, id, sep = "_")
+  }
+}
+
+make_random_string <- function(n=1, len=12, chars=c(0:9, letters, LETTERS)) {
+  randomString <- sapply(seq(n), function(i) {
+    paste(sample(chars, len, replace = TRUE), collapse = "")
+  })
+  randomString
+}
+
 ```
