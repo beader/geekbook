@@ -36,3 +36,5 @@ shinyServer(function(input, output) {
   })
 })
 ```
+
+但随着页面，功能的增加
