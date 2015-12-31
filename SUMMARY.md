@@ -14,6 +14,8 @@
    * [pip](python/pip.md)
    * [unitest](python/unitest.md)
    * [multithread](python/multithread.md)
+* [git](git/README.md)
+   * [github](git/github.md)
 * [vim](vim.md)
 * [nodejs](nodejs.md)
 * [tmux](tmux.md)
@@ -25,6 +27,4 @@
 * [mirrors](mirrors.md)
 * [scrapy](scrapy.md)
 * [nginx](nginx.md)
-* [git](git/README.md)
-   * [github](git/github.md)
 
