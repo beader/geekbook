@@ -23,5 +23,5 @@
 * [scrapy](scrapy.md)
 * [nginx](nginx.md)
 * [git](git/README.md)
-   * github
+   * [github](git/github.md)
 
