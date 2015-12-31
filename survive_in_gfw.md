@@ -1,6 +1,6 @@
 # Survive in GFW
 
-### Tools
+### 利用别人搭建的服务
 
 | Name | Free | Description |
 | -- | -- | -- |
@@ -9,6 +9,8 @@
 | [鱼摆摆](https://ybb1024.com/) | No | Fast and cheap |
 | [土豆VPN](https://www.tudouvpn.com/) | No | Pay as demand |
 | [GREEN](http://gjsq.link/) | No | High CP Ratio|
+
+### 自己搭建翻墙服务器
 
 ### Topics
 
