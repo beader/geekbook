@@ -5,7 +5,7 @@
 - [data.table](https://github.com/Rdatatable/data.table)
 - [jsonlite](https://github.com/jeroenooms/jsonlite)
 
-### shiny
+### [shiny](http://shiny.rstudio.com/)
 
 | Name | Description |
 | -- | -- |
