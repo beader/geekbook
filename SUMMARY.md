@@ -16,6 +16,7 @@
    * [multithread](python/multithread.md)
 * [git](git/README.md)
    * [github](git/github.md)
+* Survive in GFW
 * [blas and lapack](blas_and_lapack.md)
 * [vim](vim.md)
 * [nodejs](nodejs.md)
@@ -27,5 +28,4 @@
 * [mirrors](mirrors.md)
 * [scrapy](scrapy.md)
 * [nginx](nginx.md)
-* Survive in GFW
 
