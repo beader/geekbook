@@ -9,7 +9,7 @@
    * [An Shiny App Design Pettern](R/an_shiny_app_design_pettern.md)
    * [OpenCPU](R/opencpu.md)
    * [Building R Packages](R/building_r_packages.md)
-   * Meta Programming
+   * [Meta Programming](R/meta_programming.md)
 * [blas and lapack](blas_and_lapack.md)
 * [python](python/README.md)
    * [pip](python/pip.md)
