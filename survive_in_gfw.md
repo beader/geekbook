@@ -1,6 +1,6 @@
 # Survive in GFW
 
-Tools and Product
+Tools
 
 | Name | Free | Description |
 | -- | -- | -- |
