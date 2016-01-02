@@ -48,3 +48,4 @@ PEOPLE=4; START_DATE='2015-12-24'; URL='https://api.eztable.com/v3/restaurants/2
 
 - [Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.org/zh_CN/latest/base/index.html)
 - [sed awk学习笔记](http://andrewliu.in/2015/11/21/sed-awk%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/)
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
