@@ -7,7 +7,7 @@
    * [Building R Packages](R/building_r_packages.md)
    * [Meta Programming](R/meta_programming.md)
    * [Awesome Packages](R/awesome_packages.md)
-   * Data Wrangling
+   * [Data Wrangling](R/data_wrangling.md)
 * [Linux Swiss Army Knife](linux_swiss_army_knife/README.md)
    * [curl](linux_swiss_army_knife/curl.md)
    * [du](linux_swiss_army_knife/du.md)
