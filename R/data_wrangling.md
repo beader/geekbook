@@ -2,6 +2,8 @@
 
 ### 1. reshape data using `data.table`
 
+Reference: [Efficient reshaping using data.tables](https://rawgit.com/wiki/Rdatatable/data.table/vignettes/datatable-reshape.html)
+
 ```r
 DT
 #    family_id age_mother dob_child1 dob_child2 dob_child3
