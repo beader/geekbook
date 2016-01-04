@@ -1,6 +1,10 @@
 # Data Wrangling
 
-### 1. reshape data using `data.table`
+### 1. `data.table`
+
+[data.table cheat sheet](https://s3.amazonaws.com/assets.datacamp.com/img/blog/data+table+cheat+sheet.pdf)
+
+### 2. reshape data using `data.table`
 
 Reference: [Efficient reshaping using data.tables](https://rawgit.com/wiki/Rdatatable/data.table/vignettes/datatable-reshape.html)
 
