@@ -12,6 +12,8 @@
 
 ### 自己搭建翻墙服务器
 
+参考 [github/shadowsocks/shadowsocks](https://github.com/shadowsocks/shadowsocks/tree/2.8.2)
+
 ### 网络环境不好时的解决方案
 
 租一台最low的阿里云主机，带宽选20M以上，按流量付费，在上面搭一个openvpn。阿里云不论是国内线路还是国外线路速度都非常快，可以应对大部分网络环境不好的情况，比如长城宽带。
