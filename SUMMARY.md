@@ -1,6 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
+* [Linux Swiss Army Knife](linux_swiss_army_knife/README.md)
+   * [curl](linux_swiss_army_knife/curl.md)
+   * [du](linux_swiss_army_knife/du.md)
 * [R](R/README.md)
    * [An Shiny App Design Pettern](R/an_shiny_app_design_pettern.md)
    * [OpenCPU](R/opencpu.md)
@@ -8,9 +11,6 @@
    * [Meta Programming](R/meta_programming.md)
    * [Awesome Packages](R/awesome_packages.md)
    * [Data Wrangling](R/data_wrangling.md)
-* [Linux Swiss Army Knife](linux_swiss_army_knife/README.md)
-   * [curl](linux_swiss_army_knife/curl.md)
-   * [du](linux_swiss_army_knife/du.md)
 * [python](python/README.md)
    * [pip](python/pip.md)
    * [unitest](python/unitest.md)
