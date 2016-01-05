@@ -16,4 +16,5 @@
 | [sparkline](https://github.com/htmlwidgets/sparkline) | jQuery Sparkline HTML Widget for R |
 
 articles and issues:
+
 - [rendering a dataTable using sparklines](https://github.com/htmlwidgets/sparkline/issues/3)
