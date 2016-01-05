@@ -15,7 +15,7 @@
    * [pip](python/pip.md)
    * [unitest](python/unitest.md)
    * [multithread](python/multithread.md)
-   * A better Python REPL
+   * A Better Python REPL
 * [git](git/README.md)
    * [github](git/github.md)
 * [Survive in GFW](survive_in_gfw.md)
