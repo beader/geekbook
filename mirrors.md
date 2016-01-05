@@ -32,4 +32,4 @@ registry = https://registry.npm.taobao.org
 
 ### python - pip
 
-See [this](./pip.html)
+See [this](python/pip.html)
