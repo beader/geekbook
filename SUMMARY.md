@@ -4,6 +4,7 @@
 * [Linux Swiss Army Knife](linux_swiss_army_knife/README.md)
    * [curl](linux_swiss_army_knife/curl.md)
    * [du](linux_swiss_army_knife/du.md)
+   * 神器
 * [R](R/README.md)
    * [An Shiny App Design Pettern](R/an_shiny_app_design_pettern.md)
    * [OpenCPU](R/opencpu.md)
