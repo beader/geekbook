@@ -5,6 +5,12 @@
 - [data.table](https://github.com/Rdatatable/data.table)
 - [jsonlite](https://github.com/jeroenooms/jsonlite)
 
+### visualization
+
+| Name | Description |
+| -- | -- |
+| [ggalt](https://github.com/hrbrmstr/ggalt) | Extra Coordinate Systems, Geoms and Statistical Transformations for `ggplot2` |
+
 ### [shiny](http://shiny.rstudio.com/)
 
 | Name | Description |
