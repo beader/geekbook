@@ -9,6 +9,16 @@ A curated list of awesome R frameworks, packages and software.
 - [data.table](https://github.com/Rdatatable/data.table)
 - [jsonlite](https://github.com/jeroenooms/jsonlite)
 
+### internet
+
+| Name | Description |
+| -- | -- |
+| [curl](https://github.com/jeroenooms/curl) | A Connection Interface to Libcurl |
+| [jsonlite](https://github.com/jeroenooms/jsonlite) | A Robust, High Performance JSON Parser and Generator for R |
+| [httr](https://github.com/hadley/httr) | a friendly http package for |
+| [rvest](https://github.com/hadley/rvest) | Simple web scraping for R |
+| [opencpu](https://github.com/jeroenooms/opencpu) | Integrate statistical functionality into systems, share and execute scripts or reports on centralized servers |
+
 ### visualization
 
 | Name | Description |
