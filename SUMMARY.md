@@ -5,6 +5,7 @@
    * [curl](linux_swiss_army_knife/curl.md)
    * [du](linux_swiss_army_knife/du.md)
    * [黑科技](linux_swiss_army_knife/hei_ke_ji.md)
+   * tldr
 * [R](R/README.md)
    * [An Shiny App Design Pettern](R/an_shiny_app_design_pettern.md)
    * [OpenCPU](R/opencpu.md)
