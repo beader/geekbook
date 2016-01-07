@@ -1,5 +1,9 @@
 # Awesome Packages
 
+A curated list of awesome R frameworks, packages and software.
+
+[Awesome R](https://github.com/qinwf/awesome-R)
+
 ### data manipulate
 
 - [data.table](https://github.com/Rdatatable/data.table)
