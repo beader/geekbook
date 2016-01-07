@@ -1,5 +1,9 @@
 # ssh
 
+### Use SSH Keys Instead of Passwords
+
+[Reference](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets)
+
 ### 利用rsync断点续传
 
 ```zsh
