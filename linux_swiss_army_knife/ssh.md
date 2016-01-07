@@ -2,8 +2,6 @@
 
 ### scp 断点续传
 
-[Reference](http://blog.csdn.net/hepeng597/article/details/8960885)
-
 ```zsh
 # -P 部分传送和显示进度
 # --rsh=ssh 使用ssh协议传送数据
