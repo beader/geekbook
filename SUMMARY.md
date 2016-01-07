@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Linux Swiss Army Knife](linux_swiss_army_knife/README.md)
-   * tldr
+   * [tldr](linux_swiss_army_knife/tldr.md)
    * [curl](linux_swiss_army_knife/curl.md)
    * [du](linux_swiss_army_knife/du.md)
    * [黑科技](linux_swiss_army_knife/hei_ke_ji.md)
