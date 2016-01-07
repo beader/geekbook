@@ -1,6 +1,6 @@
 GeekBook - Private Confluence
 =======
 
-日常工作遇到问题的整理。
+My Private Confluence
 
 https://beader.gitbooks.io/geekbook/content/
