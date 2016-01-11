@@ -38,3 +38,4 @@ A curated list of awesome R frameworks, packages and software.
 Articles and issues:
 
 - [rendering a dataTable using sparklines](https://github.com/htmlwidgets/sparkline/issues/3)
+- [DT: An R interface to the DataTables library](http://blog.rstudio.org/2015/06/24/dt-an-r-interface-to-the-datatables-library/)
