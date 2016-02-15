@@ -12,7 +12,11 @@
 
 ### 自己搭建翻墙服务器
 
-参考 [github/shadowsocks/shadowsocks](https://github.com/shadowsocks/shadowsocks/tree/2.8.2)
+如果在国外拥有自己的VPS，可以搭建VPN，网上有很多参考资料。除了VPN外也可以尝试下shadowsocks，参考 [github/shadowsocks/shadowsocks](https://github.com/shadowsocks/shadowsocks/tree/2.8.2)
+
+### 利用google app engine
+
+[Google App Engine](https://cloud.google.com/appengine/)可以创建(10个?)免费的app，每个app每天有1G的免费流量，提供Go，Java，PHP，Python的运行环境，用来部署自己的网站或者是API服务。也有人利用它作为翻墙代理。比较有名的是goagent，但是该项目目前已经停止维护，有团队开发了个接力goagent的工具。参考[github/XX-net/XX-Net](https://github.com/XX-net/XX-Net/wiki)
 
 ### 网络环境不好时的解决方案
 
