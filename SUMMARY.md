@@ -23,7 +23,7 @@
    * [Awesome Packages](python/python_packages.md)
 * [git](git/README.md)
    * [github](git/github.md)
-   * config
+   * [config](git/config.md)
 * [Survive in GFW](survive_in_gfw.md)
 * [blas and lapack](blas_and_lapack.md)
 * [vim](vim.md)
