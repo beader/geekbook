@@ -3,7 +3,7 @@
     "gitbook": "2.x.x",
     "author": "beader",
     "plugins": [
-        "mathjax-beta"
+        "katex"
     ],
     "pluginsConfig": {}
 }
