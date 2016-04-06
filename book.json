@@ -1,7 +1,9 @@
 {
+    "title": "GeekBook",
+    "gitbook": "2.x.x",
+    "author": "beader",
     "plugins": [
-        "katex",
-        "mathjax"
+        "mathjax-beta"
     ],
     "pluginsConfig": {}
 }
