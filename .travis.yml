@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '5'
+branches:
+  only:
+  - master
+install: npm install -g gitbook-cli
+before_script: gitbook install
+script: gitbook build
+after_success:
+- bash deploy.sh
+env:
+  global:
+  - GH_REF: github.com/beader/geekbook.git
+  - secure: UbeOzcSI8e/Z/RYIiv6VEUkZljS/V2hnE0PP1FiqYVR0Numy2Nda2A8SdUoi0BNTODHcqd5CH2i9k5O/FOLbr5C9Gw0vtr8VGlESbEyX5wkwBiiTVf6NaVQ+yvwkSoowxywdB1I8JtHOmD74bl5Z4H5kTiZ4wAOt0bl3JTjICaOq9l95RUq5zC1p26myyhmo/U/TUKbZY0HWSTJvrkeIFKYx/jisFnrWk/Rx4D+Oh4MkikCO5dI+M1FTEzrm+rpjcMvTM5CjmYgd4SZfAqEkkv0ywgCzQiPThM8UmePJrGRNzwOIf1903RNag7FN3MyxH//h5pC66E+m/w1dB5g1VJA61Y84j/FFeBxt3VqNyf3fS/Z33kkOItDSOgGHuvF92WO8blZhFIJsy6UK0Dte3ljjoTtDIyriuL5lqgvx1rqYRtRlssPvxNPk1PESEfYok/G0GHuGmH/ns1QFPX3607k8BnmMx+7lMVhwravar4uGRzsTPVzHoXUpY644r9Zt5gm2Qsjkz5nPvuv17HaWUjW/X3zLsX2PRy3LSIrg2VT6U/U5fieK8Z8NbmjfJonAr/WJlj3ZKSU8XrCAKtMCsVt6Bd5S6Zvf6t76NZgr4bAJq1WAQB0n2w3GMzSpCKprD0k8Dy1332fnmwRAeS0Cuz5HEII4Xm8BBRh/43YOz1k=
