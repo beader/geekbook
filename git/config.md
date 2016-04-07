@@ -1,21 +1,34 @@
 # config
 
-User info
 
-```zsh
-git config --global user.name "username"
-git config --global user.email email"
+### Configurations
+
+`~/.gitconfig`:
+
+```
+[user]
+  name = name
+  email = email
+[core]
+  autocrlf = input
+[color]
+  ui = true
+[pull]
+  rebase = true
+[push]
+  default = simple
+[rerere]
+  enabled = true
 ```
 
-UI
 
-```zsh
-git config --global color.ui.true
+### Alias
+
+```
+git config --global alias.lg "log --oneline --decorate --all --graph"
 ```
 
-Alias
-
-HTTPs Password Caching
+### HTTPs Password Caching
 
 ```zsh
 # on mac
@@ -23,5 +36,5 @@ git config --global credential.helper osxkeychain
 # on linux
 git config --global credential.helper cache
 ```
-
-https://help.github.com/articles/caching-your-github-password-in-git/
+[Reference](
+https://help.github.com/articles/caching-your-github-password-in-git/)
