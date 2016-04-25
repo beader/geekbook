@@ -24,6 +24,7 @@
 * [git](git/README.md)
    * [github](git/github.md)
    * [config](git/config.md)
+* gfw
 * [Survive in GFW](survive_in_gfw.md)
 * [blas and lapack](blas_and_lapack.md)
 * [Docker](docker/README.md)
@@ -36,5 +37,4 @@
 * [mirrors](mirrors.md)
 * [scrapy](scrapy.md)
 * [nginx](nginx.md)
-* gfw
 
