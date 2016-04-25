@@ -26,6 +26,7 @@
    * [config](git/config.md)
 * [gfw](gfw/README.md)
    * [Survive in GFW](gfw/survive_in_gfw.md)
+* [mirrors](mirrors.md)
 * [Survive in GFW](survive_in_gfw.md)
 * [blas and lapack](blas_and_lapack.md)
 * [Docker](docker/README.md)
@@ -35,7 +36,6 @@
 * [openvpn](openvpn.md)
 * [odbc](odbc.md)
    * [Connect Azure SQL Database From Ubuntu](connect_azure_sql_database_from_ubuntu.md)
-* [mirrors](mirrors.md)
 * [scrapy](scrapy.md)
 * [nginx](nginx.md)
 
