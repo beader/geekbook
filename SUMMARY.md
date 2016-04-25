@@ -27,7 +27,6 @@
 * [gfw](gfw/README.md)
    * [Mirrors](gfw/mirrors.md)
    * [Survive in GFW](gfw/survive_in_gfw.md)
-* [Survive in GFW](survive_in_gfw.md)
 * [blas and lapack](blas_and_lapack.md)
 * [Docker](docker/README.md)
 * [vim](vim.md)
