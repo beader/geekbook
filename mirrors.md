@@ -1,4 +1,4 @@
-# mirrors
+# Mirrors
 
 ### ubuntu - apt source-list
 
