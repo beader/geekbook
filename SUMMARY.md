@@ -25,6 +25,7 @@
    * [github](git/github.md)
    * [config](git/config.md)
 * [gfw](gfw/README.md)
+   * Survive in GFW
 * [Survive in GFW](survive_in_gfw.md)
 * [blas and lapack](blas_and_lapack.md)
 * [Docker](docker/README.md)
