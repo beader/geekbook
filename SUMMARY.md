@@ -25,7 +25,7 @@
    * [github](git/github.md)
    * [config](git/config.md)
 * [gfw](gfw/README.md)
-   * [mirrors](mirrors.md)
+   * [Mirrors](mirrors.md)
    * [Survive in GFW](gfw/survive_in_gfw.md)
 * [Survive in GFW](survive_in_gfw.md)
 * [blas and lapack](blas_and_lapack.md)
