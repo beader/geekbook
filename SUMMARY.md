@@ -21,6 +21,8 @@
    * [multithread](python/multithread.md)
    * [A Better Python REPL](python/a_better_python_repl.md)
    * [Awesome Packages](python/python_packages.md)
+* [mongodb](mongodb/README.md)
+   * [Authentication](mongodb/authentication.md)
 * [git](git/README.md)
    * [github](git/github.md)
    * [config](git/config.md)
