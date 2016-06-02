@@ -21,6 +21,8 @@
    * [multithread](python/multithread.md)
    * [A Better Python REPL](python/a_better_python_repl.md)
    * [Awesome Packages](python/python_packages.md)
+* [mongodb](mongodb/README.md)
+   * Authentication
 * [git](git/README.md)
    * [github](git/github.md)
    * [config](git/config.md)
@@ -38,6 +40,4 @@
    * [Connect Azure SQL Database From Ubuntu](connect_azure_sql_database_from_ubuntu.md)
 * [scrapy](scrapy.md)
 * [nginx](nginx.md)
-* [mongodb](mongodb/README.md)
-   * Authentication
 
