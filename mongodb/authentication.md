@@ -1,5 +1,11 @@
 # Authentication
 
+## List All Users
+
+```js
+db.system.users.find()
+```
+
 ## Enable Authentication
 
 With access control enabled, ensure you have a user with userAdmin or userAdminAnyDatabase role in the admin database.
