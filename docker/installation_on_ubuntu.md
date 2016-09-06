@@ -1,5 +1,7 @@
 # Installation on Ubuntu 14.04
 
+[Reference](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+
 ## Prerequisites
 
 > Docker requires a 64-bit installation regardless of your Ubuntu version. Additionally, your kernel must be 3.10 at minimum.
