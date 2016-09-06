@@ -32,6 +32,7 @@
 * [Docker](docker/README.md)
    * [Installation on Ubuntu](docker/installation_on_ubuntu.md)
    * [Docker Hub Mirror](docker/docker_hub_mirror.md)
+   * Dokcer Compose
 * [Cheatsheets](cheatsheets.md)
 * [blas and lapack](blas_and_lapack.md)
 * [vim](vim.md)
