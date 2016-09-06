@@ -32,7 +32,7 @@
 * [Cheatsheets](cheatsheets.md)
 * [blas and lapack](blas_and_lapack.md)
 * [Docker](docker/README.md)
-   * Installation on Ubuntu
+   * [Installation on Ubuntu](docker/installation_on_ubuntu.md)
 * [vim](vim.md)
 * [nodejs](nodejs.md)
 * [tmux](tmux.md)
