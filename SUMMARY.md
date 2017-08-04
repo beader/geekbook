@@ -33,6 +33,7 @@
   * [Installation on Ubuntu](docker/installation_on_ubuntu.md)
   * [Docker Hub Mirror](docker/docker_hub_mirror.md)
   * Dokcer Compose
+  * [DISPLAY flag](docker/display_flag.md)
 * [Cheatsheets](cheatsheets.md)
 * [blas and lapack](blas_and_lapack.md)
 * [vim](vim.md)
@@ -43,6 +44,4 @@
   * [Connect Azure SQL Database From Ubuntu](connect_azure_sql_database_from_ubuntu.md)
 * [scrapy](scrapy.md)
 * [nginx](nginx.md)
-* [pyspider](pyspider/README.md)
-* [docker](docker.md)
 
