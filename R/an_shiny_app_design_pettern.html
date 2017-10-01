@@ -1,0 +1,972 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>An Shiny App Design Pettern | GeekBook</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="beader">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-katex/katex.min.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../R/opencpu.html" />
+    
+    
+    <link rel="prev" href="../R/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.1"
+        data-chapter-title="An Shiny App Design Pettern"
+        data-filepath="R/an_shiny_app_design_pettern.md"
+        data-basepath=".."
+        data-revision="Sun Oct 01 2017 14:46:48 GMT+0000 (UTC)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="linux_swiss_army_knife/index.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Linux Swiss Army Knife
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="linux_swiss_army_knife/tldr.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/tldr.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        tldr
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="linux_swiss_army_knife/ssh.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/ssh.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        ssh
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="linux_swiss_army_knife/curl.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/curl.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        curl
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="linux_swiss_army_knife/du.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/du.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        du
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="linux_swiss_army_knife/hei_ke_ji.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/hei_ke_ji.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        黑科技
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="linux_swiss_army_knife/wget.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/wget.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        wget
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="R/index.html">
+            
+                
+                    <a href="../R/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        R
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1" data-path="R/an_shiny_app_design_pettern.html">
+            
+                
+                    <a href="../R/an_shiny_app_design_pettern.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        An Shiny App Design Pettern
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="R/opencpu.html">
+            
+                
+                    <a href="../R/opencpu.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        OpenCPU
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="R/building_r_packages.html">
+            
+                
+                    <a href="../R/building_r_packages.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Building R Packages
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="R/meta_programming.html">
+            
+                
+                    <a href="../R/meta_programming.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Meta Programming
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="R/awesome_packages.html">
+            
+                
+                    <a href="../R/awesome_packages.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Awesome Packages
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="R/data_wrangling.html">
+            
+                
+                    <a href="../R/data_wrangling.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        Data Wrangling
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="python/index.html">
+            
+                
+                    <a href="../python/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        python
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="python/pip.html">
+            
+                
+                    <a href="../python/pip.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        pip
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="python/unitest.html">
+            
+                
+                    <a href="../python/unitest.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        unitest
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="python/multithread.html">
+            
+                
+                    <a href="../python/multithread.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        multithread
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="python/a_better_python_repl.html">
+            
+                
+                    <a href="../python/a_better_python_repl.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        A Better Python REPL
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="python/python_packages.html">
+            
+                
+                    <a href="../python/python_packages.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Awesome Packages
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="mongodb/index.html">
+            
+                
+                    <a href="../mongodb/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        mongodb
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="mongodb/authentication.html">
+            
+                
+                    <a href="../mongodb/authentication.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Authentication
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="git/index.html">
+            
+                
+                    <a href="../git/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        git
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="git/github.html">
+            
+                
+                    <a href="../git/github.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        github
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="git/config.html">
+            
+                
+                    <a href="../git/config.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        config
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="gfw/index.html">
+            
+                
+                    <a href="../gfw/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        gfw
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="gfw/mirrors.html">
+            
+                
+                    <a href="../gfw/mirrors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        Mirrors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="gfw/survive_in_gfw.html">
+            
+                
+                    <a href="../gfw/survive_in_gfw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        Survive in GFW
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="docker/index.html">
+            
+                
+                    <a href="../docker/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Docker
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="docker/installation_on_ubuntu.html">
+            
+                
+                    <a href="../docker/installation_on_ubuntu.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        Installation on Ubuntu
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="docker/docker_hub_mirror.html">
+            
+                
+                    <a href="../docker/docker_hub_mirror.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        Docker Hub Mirror
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" >
+            
+            <span><b>7.3.</b> Dokcer Compose</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="docker/display_flag.html">
+            
+                
+                    <a href="../docker/display_flag.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        DISPLAY flag
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="cheatsheets.html">
+            
+                
+                    <a href="../cheatsheets.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Cheatsheets
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="blas_and_lapack.html">
+            
+                
+                    <a href="../blas_and_lapack.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        blas and lapack
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="vim.html">
+            
+                
+                    <a href="../vim.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        vim
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="nodejs.html">
+            
+                
+                    <a href="../nodejs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        nodejs
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="tmux.html">
+            
+                
+                    <a href="../tmux.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        tmux
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="openvpn.html">
+            
+                
+                    <a href="../openvpn.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        openvpn
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="odbc.html">
+            
+                
+                    <a href="../odbc.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        odbc
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="14.1" data-path="connect_azure_sql_database_from_ubuntu.html">
+            
+                
+                    <a href="../connect_azure_sql_database_from_ubuntu.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.1.</b>
+                        
+                        Connect Azure SQL Database From Ubuntu
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="scrapy.html">
+            
+                
+                    <a href="../scrapy.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        scrapy
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16" data-path="nginx.html">
+            
+                
+                    <a href="../nginx.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.</b>
+                        
+                        nginx
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >GeekBook</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="an-shiny-app-design-pettern">An Shiny App Design Pettern</h1>
+<p>&#x4E00;&#x4E2A;&#x6700;&#x7B80;&#x5355;&#x7684;ShinyApp&#x7531;&#x4E24;&#x4E2A;&#x6587;&#x4EF6;&#x6784;&#x6210;&#xFF0C;&#x5206;&#x522B;&#x662F;<code>ui.R</code>&#x4E0E;<code>server.R</code></p>
+<pre><code class="lang-r"><span class="hljs-comment"># ui.R</span>
+<span class="hljs-keyword">library</span>(shiny)
+
+shinyUI(fluidPage(
+  titlePanel(<span class="hljs-string">&quot;Simplest Shiny App&quot;</span>),
+  sidebarLayout(
+    sidebarPanel(
+      sliderInput(<span class="hljs-string">&quot;bins&quot;</span>,
+                  <span class="hljs-string">&quot;Number of bins:&quot;</span>,
+                  min = <span class="hljs-number">1</span>,
+                  max = <span class="hljs-number">50</span>,
+                  value = <span class="hljs-number">30</span>)
+    ),
+    mainPanel(
+      plotOutput(<span class="hljs-string">&quot;distPlot&quot;</span>)
+    )
+  )
+))
+</code></pre>
+<pre><code class="lang-r"><span class="hljs-comment"># server.R</span>
+<span class="hljs-keyword">library</span>(shiny)
+
+shinyServer(<span class="hljs-keyword">function</span>(input, output) {
+  output$distPlot &lt;- renderPlot({
+    x    &lt;- faithful[, <span class="hljs-number">2</span>]
+    bins &lt;- seq(min(x), max(x), length.out = input$bins + <span class="hljs-number">1</span>)
+    hist(x, breaks = bins, col = <span class="hljs-string">&apos;darkgray&apos;</span>, border = <span class="hljs-string">&apos;white&apos;</span>)
+  })
+})
+</code></pre>
+<p>&#x4F46;&#x968F;&#x7740;&#x9875;&#x9762;&#xFF0C;&#x529F;&#x80FD;&#x7684;&#x589E;&#x52A0;&#xFF0C;&#x8FD9;&#x4E24;&#x4E2A;&#x9875;&#x9762;&#x5C31;&#x4F1A;&#x8D8A;&#x6765;&#x8D8A;&#x5927;&#xFF0C;&#x8D8A;&#x6765;&#x8D8A;&#x4E0D;&#x5BB9;&#x6613;&#x7BA1;&#x7406;&#x3002;&#x6BD4;&#x5982;&#x4E00;&#x4E2A;&#x5178;&#x578B;&#x7684;<a href="https://rstudio.github.io/shinydashboard/" target="_blank">shinydashboard</a>&#x5E94;&#x7528;:</p>
+<p><img src="dashboard.png" alt=""></p>
+<p>&#x968F;&#x7740;tabs&#x3001;&#x63A7;&#x4EF6;&#x6570;&#x91CF;&#x7684;&#x589E;&#x52A0;&#xFF0C;<code>ui.R</code>&#x4E0E;<code>server.R</code>&#x7684;&#x4EE3;&#x7801;&#x91CF;&#x6025;&#x5267;&#x589E;&#x591A;&#xFF0C;&#x5E76;&#x4E14;&#x4E0D;&#x53EF;&#x907F;&#x514D;&#x7684;&#x4F1A;&#x9047;&#x5230;&#x63A7;&#x4EF6;<code>id</code>&#x51B2;&#x7A81;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x6BD4;&#x8F83;&#x7406;&#x60F3;&#x7684;&#x662F;&#xFF0C;&#x6BCF;&#x4E2A;tab&#x90FD;&#x5206;&#x522B;&#x5EFA;&#x4E00;&#x4E2A;<code>.R</code>&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x4E14;&#x4F7F;&#x7528;&#x5404;&#x81EA;&#x72EC;&#x7ACB;&#x7684;&#x547D;&#x540D;&#x7A7A;&#x95F4;&#xFF0C;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x7684;&#x7ED3;&#x6784;&#x6765;&#x7EC4;&#x7EC7;&#x4EE3;&#x7801;:</p>
+<pre><code class="lang-r"><span class="hljs-comment"># ui.R</span>
+<span class="hljs-keyword">library</span>(shiny)
+<span class="hljs-keyword">library</span>(shinydashboard)
+
+header &lt;- dashboardHeader(
+  title = <span class="hljs-string">&quot;shiny app&quot;</span>
+)
+
+sidebar &lt;- dashboardSidebar(
+  sidebarMenu(
+    menuItem(<span class="hljs-string">&quot;tab1&quot;</span>, tabName = <span class="hljs-string">&quot;tab1&quot;</span>, icon = icon(<span class="hljs-string">&quot;pie-chart&quot;</span>)),
+    menuItem(<span class="hljs-string">&quot;tab2&quot;</span>, tabName = <span class="hljs-string">&quot;tab2&quot;</span>, icon = icon(<span class="hljs-string">&quot;retweet&quot;</span>)),
+    menuItem(<span class="hljs-string">&quot;tab3&quot;</span>, tabName = <span class="hljs-string">&quot;tab3&quot;</span>, icon = icon(<span class="hljs-string">&quot;users&quot;</span>)),
+    menuItem(<span class="hljs-string">&quot;tab4&quot;</span>, tabName = <span class="hljs-string">&quot;tab4&quot;</span>, icon = icon(<span class="hljs-string">&quot;database&quot;</span>)),
+    menuItem(<span class="hljs-string">&quot;tab5&quot;</span>, tabName = <span class="hljs-string">&quot;tab5&quot;</span>, icon = icon(<span class="hljs-string">&quot;send&quot;</span>))
+  )
+)
+
+body &lt;- dashboardBody(
+  tabItems(
+    tabItem(tabName = <span class="hljs-string">&quot;tab1&quot;</span>, uiOutput(<span class="hljs-string">&quot;tab1_page&quot;</span>)),
+    tabItem(tabName = <span class="hljs-string">&quot;tab2&quot;</span>, uiOutput(<span class="hljs-string">&quot;tab2_page&quot;</span>)),
+    tabItem(tabName = <span class="hljs-string">&quot;tab3&quot;</span>, uiOutput(<span class="hljs-string">&quot;tab3_page&quot;</span>)),
+    tabItem(tabName = <span class="hljs-string">&quot;tab4&quot;</span>, uiOutput(<span class="hljs-string">&quot;tab4_page&quot;</span>)),
+    tabItem(tabName = <span class="hljs-string">&quot;tab5&quot;</span>, uiOutput(<span class="hljs-string">&quot;tab5_page&quot;</span>))
+  )
+)
+
+shinyUI(dashboardPage(header, sidebar, body))
+</code></pre>
+<pre><code class="lang-r"><span class="hljs-comment"># server.R</span>
+<span class="hljs-keyword">library</span>(shiny)
+
+<span class="hljs-keyword">source</span>(<span class="hljs-string">&quot;tabItems/tab1_page.R&quot;</span>)
+<span class="hljs-keyword">source</span>(<span class="hljs-string">&quot;tabItems/tab2_page.R&quot;</span>)
+<span class="hljs-keyword">source</span>(<span class="hljs-string">&quot;tabItems/tab3_page.R&quot;</span>)
+<span class="hljs-keyword">source</span>(<span class="hljs-string">&quot;tabItems/tab4_page.R&quot;</span>)
+<span class="hljs-keyword">source</span>(<span class="hljs-string">&quot;tabItems/tab5_page.R&quot;</span>)
+<span class="hljs-keyword">source</span>(<span class="hljs-string">&quot;R/id_maker.R&quot;</span>)
+
+shinyServer(<span class="hljs-keyword">function</span>(input, output, session) {
+  output$tab1_page &lt;- renderUI(create_tab1_page(session = session))
+  output$tab2_page &lt;- renderUI(create_tab2_page(session = session))
+  output$tab3_page &lt;- renderUI(create_tab3_page(session = session))
+  output$tab4_page &lt;- renderUI(create_tab4_page(session = session))
+  output$tab5_page &lt;- renderUI(create_tab5_page(session = session))
+})
+</code></pre>
+<p>&#x6BCF;&#x4E2A;tab page&#x90FD;&#x662F;&#x4E00;&#x4E2A;&#x72EC;&#x7ACB;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x5B58;&#x653E;&#x5728;<code>tabItems</code>&#x76EE;&#x5F55;&#x4E0B;&#xFF0C;&#x4EE5;&#x4E0B;&#x4EE5;&#x7B2C;&#x4E00;&#x4E2A;tab&#x4E3A;&#x4F8B;:</p>
+<pre><code class="lang-r"><span class="hljs-comment"># tabItems/tab1_page.R</span>
+create_tab1_page &lt;- <span class="hljs-keyword">function</span>(session) {
+  id &lt;- id_maker()
+  tab_page &lt;- fluidPage(
+    <span class="hljs-string">&quot;this is tab1 page&quot;</span>,
+    selectInput(id(<span class="hljs-string">&apos;select_input&apos;</span>), <span class="hljs-string">&quot;select a letter&quot;</span>, choices = letters),
+    verbatimTextOutput(id(<span class="hljs-string">&apos;text_output&apos;</span>))
+  )
+  on.exit({
+    input &lt;- session$input
+    output &lt;- session$output
+    output[[id(<span class="hljs-string">&apos;text_output&apos;</span>)]] &lt;- renderText({
+      input[[id(<span class="hljs-string">&apos;select_input&apos;</span>)]]
+    })
+  })
+  <span class="hljs-keyword">return</span>(tab_page)
+}
+</code></pre>
+<p>&#x8FD9;&#x91CC;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x7B80;&#x5355;&#x7684;<code>id_maker</code>&#x51FD;&#x6570;&#x6765;&#x89E3;&#x51B3;&#x547D;&#x540D;&#x7A7A;&#x95F4;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x8FD9;&#x6837;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x7ED9;&#x4E0D;&#x540C;&#x9875;&#x9762;&#x7684;&#x6240;&#x6709;&#x63A7;&#x4EF6;&#x524D;&#x9762;&#x90FD;&#x52A0;&#x4E86;&#x4E00;&#x4E2A;&#x4E0D;&#x91CD;&#x590D;&#x7684;random&#x524D;&#x7F00;&#xFF0C;&#x8FD9;&#x6837;&#x4E00;&#x6765;<code>tab1_page.R</code>&#x548C;<code>tab2_page.R</code>&#x4E0B;&#x7684;<code>id(&apos;text_output&apos;)</code>&#x5728;&#x89C2;&#x611F;&#x4E0A;&#x662F;&#x76F8;&#x540C;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x5B9E;&#x9645;&#x7684;&#x503C;&#x662F;&#x4E0D;&#x540C;&#x7684;&#x3002;</p>
+<pre><code class="lang-r"><span class="hljs-comment"># R/id_maker.R</span>
+id_maker &lt;- <span class="hljs-keyword">function</span>(prefix = make_random_string()) {
+  <span class="hljs-keyword">function</span>(id) {
+    paste(prefix, id, sep = <span class="hljs-string">&quot;_&quot;</span>)
+  }
+}
+
+make_random_string &lt;- <span class="hljs-keyword">function</span>(n=<span class="hljs-number">1</span>, len=<span class="hljs-number">12</span>, chars=c(<span class="hljs-number">0</span>:<span class="hljs-number">9</span>, letters, LETTERS)) {
+  randomString &lt;- sapply(seq(n), <span class="hljs-keyword">function</span>(i) {
+    paste(sample(chars, len, replace = <span class="hljs-literal">TRUE</span>), collapse = <span class="hljs-string">&quot;&quot;</span>)
+  })
+  randomString
+}
+</code></pre>
+<p><img src="new_shinydashboard.png" alt=""></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../R/index.html" class="navigation navigation-prev " aria-label="Previous page: R"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../R/opencpu.html" class="navigation navigation-next " aria-label="Next page: OpenCPU"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"katex":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

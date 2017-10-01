@@ -1,0 +1,952 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Authentication | GeekBook</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="beader">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-katex/katex.min.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../git/index.html" />
+    
+    
+    <link rel="prev" href="../mongodb/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="4.1"
+        data-chapter-title="Authentication"
+        data-filepath="mongodb/authentication.md"
+        data-basepath=".."
+        data-revision="Sun Oct 01 2017 14:46:48 GMT+0000 (UTC)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="linux_swiss_army_knife/index.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Linux Swiss Army Knife
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="linux_swiss_army_knife/tldr.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/tldr.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        tldr
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="linux_swiss_army_knife/ssh.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/ssh.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        ssh
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="linux_swiss_army_knife/curl.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/curl.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        curl
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="linux_swiss_army_knife/du.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/du.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        du
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="linux_swiss_army_knife/hei_ke_ji.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/hei_ke_ji.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        黑科技
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="linux_swiss_army_knife/wget.html">
+            
+                
+                    <a href="../linux_swiss_army_knife/wget.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        wget
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="R/index.html">
+            
+                
+                    <a href="../R/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        R
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="R/an_shiny_app_design_pettern.html">
+            
+                
+                    <a href="../R/an_shiny_app_design_pettern.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        An Shiny App Design Pettern
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="R/opencpu.html">
+            
+                
+                    <a href="../R/opencpu.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        OpenCPU
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="R/building_r_packages.html">
+            
+                
+                    <a href="../R/building_r_packages.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Building R Packages
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="R/meta_programming.html">
+            
+                
+                    <a href="../R/meta_programming.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Meta Programming
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="R/awesome_packages.html">
+            
+                
+                    <a href="../R/awesome_packages.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Awesome Packages
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="R/data_wrangling.html">
+            
+                
+                    <a href="../R/data_wrangling.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        Data Wrangling
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="python/index.html">
+            
+                
+                    <a href="../python/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        python
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="python/pip.html">
+            
+                
+                    <a href="../python/pip.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        pip
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="python/unitest.html">
+            
+                
+                    <a href="../python/unitest.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        unitest
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="python/multithread.html">
+            
+                
+                    <a href="../python/multithread.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        multithread
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="python/a_better_python_repl.html">
+            
+                
+                    <a href="../python/a_better_python_repl.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        A Better Python REPL
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="python/python_packages.html">
+            
+                
+                    <a href="../python/python_packages.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Awesome Packages
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="mongodb/index.html">
+            
+                
+                    <a href="../mongodb/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        mongodb
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="4.1" data-path="mongodb/authentication.html">
+            
+                
+                    <a href="../mongodb/authentication.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Authentication
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="git/index.html">
+            
+                
+                    <a href="../git/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        git
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="git/github.html">
+            
+                
+                    <a href="../git/github.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        github
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="git/config.html">
+            
+                
+                    <a href="../git/config.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        config
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="gfw/index.html">
+            
+                
+                    <a href="../gfw/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        gfw
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="gfw/mirrors.html">
+            
+                
+                    <a href="../gfw/mirrors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        Mirrors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="gfw/survive_in_gfw.html">
+            
+                
+                    <a href="../gfw/survive_in_gfw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        Survive in GFW
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="docker/index.html">
+            
+                
+                    <a href="../docker/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Docker
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="docker/installation_on_ubuntu.html">
+            
+                
+                    <a href="../docker/installation_on_ubuntu.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        Installation on Ubuntu
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="docker/docker_hub_mirror.html">
+            
+                
+                    <a href="../docker/docker_hub_mirror.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        Docker Hub Mirror
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" >
+            
+            <span><b>7.3.</b> Dokcer Compose</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="docker/display_flag.html">
+            
+                
+                    <a href="../docker/display_flag.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        DISPLAY flag
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="cheatsheets.html">
+            
+                
+                    <a href="../cheatsheets.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Cheatsheets
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="blas_and_lapack.html">
+            
+                
+                    <a href="../blas_and_lapack.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        blas and lapack
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="vim.html">
+            
+                
+                    <a href="../vim.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        vim
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="nodejs.html">
+            
+                
+                    <a href="../nodejs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        nodejs
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="tmux.html">
+            
+                
+                    <a href="../tmux.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        tmux
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="openvpn.html">
+            
+                
+                    <a href="../openvpn.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        openvpn
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="odbc.html">
+            
+                
+                    <a href="../odbc.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        odbc
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="14.1" data-path="connect_azure_sql_database_from_ubuntu.html">
+            
+                
+                    <a href="../connect_azure_sql_database_from_ubuntu.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.1.</b>
+                        
+                        Connect Azure SQL Database From Ubuntu
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="scrapy.html">
+            
+                
+                    <a href="../scrapy.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        scrapy
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16" data-path="nginx.html">
+            
+                
+                    <a href="../nginx.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.</b>
+                        
+                        nginx
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >GeekBook</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="authentication">Authentication</h1>
+<h2 id="list-all-users">List All Users</h2>
+<pre><code class="lang-js">db.system.users.find()
+</code></pre>
+<h2 id="enable-authentication">Enable Authentication</h2>
+<p>With access control enabled, ensure you have a user with userAdmin or userAdminAnyDatabase role in the admin database.</p>
+<h3 id="procedures">Procedures</h3>
+<ol>
+<li>Start MongoDB without access control.</li>
+<li>Connect to the instance.</li>
+<li>Create the user administrator.<pre><code class="lang-js">use admin
+db.createUser(
+{
+ user: <span class="hljs-string">&quot;myUserAdmin&quot;</span>,
+ pwd: <span class="hljs-string">&quot;abc123&quot;</span>,
+ roles: [ { role: <span class="hljs-string">&quot;userAdminAnyDatabase&quot;</span>, db: <span class="hljs-string">&quot;admin&quot;</span> } ]
+}
+)
+</code></pre>
+</li>
+<li>Re-start the MongoDB instance with access control.<pre><code class="lang-js">mongod --auth --port xxx --dbpath xxx
+</code></pre>
+</li>
+<li>Authenticate as the user administrator.<pre><code class="lang-js">mongo --port <span class="hljs-number">27017</span> -u <span class="hljs-string">&quot;myUserAdmin&quot;</span> -p <span class="hljs-string">&quot;abc123&quot;</span> --authenticationDatabase <span class="hljs-string">&quot;admin&quot;</span>
+</code></pre>
+or in the mongo shell connected without authentication, switch to the authentication database, and use db.auth() method to authenticate:<pre><code class="lang-js">use admin
+db.auth(<span class="hljs-string">&quot;myUserAdmin&quot;</span>, <span class="hljs-string">&quot;abc123&quot;</span> )
+</code></pre>
+</li>
+<li>Create additional users as needed for your deployment.</li>
+</ol>
+<h2 id="user-management-methods">User Management Methods</h2>
+<ul>
+<li><code>db.auth()</code>    Authenticates a user to a database.</li>
+<li><code>db.createUser()</code>    Creates a new user.</li>
+<li><code>db.updateUser()</code>    Updates user data.</li>
+<li><code>db.changeUserPassword()</code>    Changes an existing user&#x2019;s password.</li>
+<li><code>db.removeUser()</code>    Deprecated. Removes a user from a database.</li>
+<li><code>db.dropAllUsers()</code>    Deletes all users associated with a database.</li>
+<li><code>db.dropUser()</code>    Removes a single user.</li>
+<li><code>db.grantRolesToUser()</code>    Grants a role and its privileges to a user.</li>
+<li><code>db.revokeRolesFromUser()</code>    Removes a role from a user.</li>
+<li><code>db.getUser()</code>    Returns information about the specified user.</li>
+<li><code>db.getUsers()</code>    Returns information about all users associated with a database.</li>
+</ul>
+<h2 id="role-management-methods">Role Management Methods</h2>
+<ul>
+<li><code>db.createRole()</code>    Creates a role and specifies its privileges.</li>
+<li><code>db.updateRole()</code>    Updates a user-defined role.</li>
+<li><code>db.dropRole()</code>    Deletes a user-defined role.</li>
+<li><code>db.dropAllRoles()</code>    Deletes all user-defined roles associated with a database.</li>
+<li><code>db.grantPrivilegesToRole()</code>    Assigns privileges to a user-defined role.</li>
+<li><code>db.revokePrivilegesFromRole()</code>    Removes the specified privileges from a user-defined role.</li>
+<li><code>db.grantRolesToRole()</code>    Specifies roles from which a user-defined role inherits privileges.</li>
+<li><code>db.revokeRolesFromRole()</code>    Removes inherited roles from a role.</li>
+<li><code>db.getRole()</code>    Returns information for the specified role.</li>
+<li><code>db.getRoles()</code>    Returns information for all the user-defined roles in a database.</li>
+</ul>
+<h2 id="builtin-roles">Built-In Roles</h2>
+<p>A role grants privileges to perform sets of actions on defined resources. A given role applies to the database on which it is defined and can grant access down to a collection level of granularity.</p>
+<h3 id="database-user-roles">Database User Roles</h3>
+<ul>
+<li><code>read</code> </li>
+<li><code>readWrite</code></li>
+</ul>
+<h3 id="database-administration-roles">Database Administration Roles</h3>
+<ul>
+<li><code>dbAdmin</code></li>
+<li><code>dbOwner</code> The database owner can perform any administrative action on the database.</li>
+<li><code>userAdmin</code> Provides the ability to create and modify roles and users on the current database.</li>
+</ul>
+<h3 id="cluster-administration-roles">Cluster Administration Roles</h3>
+<ul>
+<li><code>clusterAdmin</code></li>
+<li><code>clusterManager</code></li>
+<li><code>clusterMonitor</code></li>
+<li><code>hostManager</code></li>
+</ul>
+<h3 id="backup-and-restoration-roles">Backup and Restoration Roles</h3>
+<p>The admin database includes the following roles for backing up and restoring data:</p>
+<ul>
+<li><code>backup</code></li>
+<li><code>restore</code></li>
+</ul>
+<h3 id="alldatabase-roles">All-Database Roles</h3>
+<ul>
+<li><code>readAnyDatabase</code></li>
+<li><code>readWriteAnyDatabase</code></li>
+<li><code>userAdminAnyDatabase</code></li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="http://ibruce.info/2015/03/03/mongodb3-auth/" target="_blank">mongoDB 3.0 &#x5B89;&#x5168;&#x6743;&#x9650;&#x8BBF;&#x95EE;&#x63A7;&#x5236;</a></li>
+<li><a href="https://docs.mongodb.com/manual/reference/method/js-user-management/" target="_blank">User Management Methods</a></li>
+<li><a href="https://docs.mongodb.com/manual/reference/method/js-role-management/" target="_blank">Role Management Methods</a></li>
+<li><a href="https://docs.mongodb.com/manual/reference/built-in-roles/#userAdminAnyDatabase" target="_blank">Built-In Roles</a></li>
+<li><a href="https://docs.mongodb.com/manual/tutorial/enable-authentication/" target="_blank">Enable Authentication</a></li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../mongodb/index.html" class="navigation navigation-prev " aria-label="Previous page: mongodb"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../git/index.html" class="navigation navigation-next " aria-label="Next page: git"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"katex":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
