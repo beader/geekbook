@@ -1,3 +1,3 @@
 # Cheatsheets
 
-A [collection of cheatsheets](http://ricostacruz.com/cheatsheets/)  written by [Rico Sta. Cruz](http://ricostacruz.com).
+A [collection of cheatsheets](https://devhints.io/)  written by [Rico Sta. Cruz](http://ricostacruz.com).
